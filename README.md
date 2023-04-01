@@ -60,7 +60,7 @@ Exit
 9. Double-click on the "(Default)" value in the "command" key and enter the following command:
 
 ~~~
-powershell.exe -NoExit -ExecutionPolicy Bypass -File "C:\PathTo\File\HashFile.ps1" "%1" && pause
+powershell.exe -NoExit -ExecutionPolicy Bypass -File "C:\PathTo\File\HashFile.ps1" "%1"
 ~~~
 
 ![image](https://user-images.githubusercontent.com/103339246/229255104-78db25a7-f235-4a01-ba20-b88a85bb5a07.png)
