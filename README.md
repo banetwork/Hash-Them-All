@@ -29,6 +29,7 @@ Get-FileHash -Path $filePath -Algorithm SHA256 | Select-Object -ExpandProperty H
 Write-Host "`nSHA512 Hash:"
 Get-FileHash -Path $filePath -Algorithm SHA512 | Select-Object -ExpandProperty Hash
 Read-Host "`nPress Enter to continue..."
+Exit
 ~~~
 
 3. Save your file as "HashFile.ps1", making a note of your directory path where you saved it.
