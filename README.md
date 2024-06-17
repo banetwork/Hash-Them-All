@@ -14,7 +14,6 @@ Creates a right-click option to hash a selected file in Windows using the follow
 # How To
 1. Open your favourite text editor.
 2. Copy across the following to your text editor.
-   - Security note. Always read the script before executing the code. If in doubt, don't run it.
 
 ~~~
 $filePath = $args[0]
